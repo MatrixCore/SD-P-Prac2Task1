@@ -44,14 +44,14 @@ namespace Tests
         public void TestPrefixShort()
         {
             Program test = new Program();
-            Assert.AreEqual("1,1:", test.Prefix("H"));
+            Assert.AreEqual("1,1:H", test.Prefix("H"));
         }
 		
 	[Test]
         public void TestPrefixGarbage()
         {
             Program test = new Program();
-            Assert.AreEqual("13,3:", test.Prefix("!@#$ %^&*- =+"));
+            Assert.AreEqual("13,3:!@#$ %^&*- =+", test.Prefix("!@#$ %^&*- =+"));
         }
     }
 }
