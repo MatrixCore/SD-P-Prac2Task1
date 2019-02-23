@@ -36,7 +36,7 @@ namespace Tests
         [Test]
 	public void TestPrefixNull()
 	{
-		Program test = new program();
+		Program test = new Program();
 		Assert.AreEqual(null, test.Prefix(null));
 	}
 		
