@@ -30,7 +30,7 @@ namespace Tests
         public void TestPrefixLong()
         {
             Program test = new Program();
-            Assert.AreEqual("27,5:what ... did you say?? ", test.Prefix("what ... did you say?? "));
+            Assert.AreEqual("27,5:what   ...   did you say?? ", test.Prefix("what   ...   did you say?? "));
         }
     }
 }
