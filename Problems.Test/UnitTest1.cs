@@ -34,20 +34,20 @@ namespace Tests
         }
         
         [Test]
-		public void TestPrefixNull()
-		{
-			Program test = new program();
-			Assert.AreEqual(null, test.Prefix(null));
-		}
+	public void TestPrefixNull()
+	{
+		Program test = new program();
+		Assert.AreEqual(null, test.Prefix(null));
+	}
 		
-		[Test]
+	[Test]
         public void TestPrefixShort()
         {
             Program test = new Program();
             Assert.AreEqual("1,1:", test.Prefix("H"));
         }
 		
-		[Test]
+	[Test]
         public void TestPrefixGarbage()
         {
             Program test = new Program();
